@@ -2,6 +2,7 @@
 
 mob/var/playerscale = 1
 mob/var/basesize = 1
+mob/var/playersize = "Normal"
 
 /mob/proc/resize(size_mod) //This is used by verbs
 	var/matrix/resize = matrix() // Defines the matrix to change the player's size
