@@ -29,7 +29,7 @@ datum/admins/proc/notes_gethtml(var/ckey)
 
 
 //handles adding notes to the end of a ckey's buffer
-//originally had seperate entries such as var/by to record who left the note and when
+//originally had separate entries such as var/by to record who left the note and when
 //but the current bansystem is a heap of dung.
 /proc/notes_add(var/ckey, var/note)
 	if(!ckey)

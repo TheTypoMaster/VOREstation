@@ -126,7 +126,7 @@
 
 /obj/item/weapon/storage/box/syndie_kit/chameleon
 	name = "chameleon kit"
-	desc = "Comes with all the clothes you need to impersonate most people.  Acting lessons sold seperately."
+	desc = "Comes with all the clothes you need to impersonate most people.  Acting lessons sold separately."
 	storage_slots = 10
 
 /obj/item/weapon/storage/box/syndie_kit/chameleon/New()

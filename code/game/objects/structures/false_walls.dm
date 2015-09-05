@@ -3,7 +3,7 @@
  */
 /obj/structure/falsewall
 	name = "wall"
-	desc = "A huge chunk of metal used to seperate rooms."
+	desc = "A huge chunk of metal used to separate rooms."
 	anchored = 1
 	icon = 'icons/turf/walls.dmi'
 	var/mineral = "metal"
@@ -161,7 +161,7 @@
 
 /obj/structure/falserwall
 	name = "reinforced wall"
-	desc = "A huge chunk of reinforced metal used to seperate rooms."
+	desc = "A huge chunk of reinforced metal used to separate rooms."
 	icon = 'icons/turf/walls.dmi'
 	icon_state = "r_wall"
 	density = 1

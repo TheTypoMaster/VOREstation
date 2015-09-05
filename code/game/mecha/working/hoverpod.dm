@@ -76,7 +76,7 @@
 
 //Hoverpod variants
 /obj/mecha/working/hoverpod/combatpod
-	desc = "An ancient, run-down combat spacecraft." // Ideally would have a seperate icon.
+	desc = "An ancient, run-down combat spacecraft." // Ideally would have a separate icon.
 	name = "Combat Hoverpod"
 	health = 200
 	internal_damage_threshold = 35

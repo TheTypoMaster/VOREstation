@@ -265,7 +265,7 @@
 		if(help)
 			dat += "<A href='?src=\ref[src];help=1'>Hide Help</A><BR>"
 			dat += {"
-					Lines are a series of chords, separated by commas (,), each with notes seperated by hyphens (-).<br>
+					Lines are a series of chords, separated by commas (,), each with notes separated by hyphens (-).<br>
 					Every note in a chord will play together, with chord timed by the tempo.<br>
 					<br>
 					Notes are played by the names of the note, and optionally, the accidental, and/or the octave number.<br>

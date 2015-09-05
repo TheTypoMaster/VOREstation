@@ -306,7 +306,7 @@ turf/proc/shift_to_subarea()
 	var/level = min(max(round(lighting_lumcount,1),0),lighting_controller.lighting_states)
 	var/new_tag = lighting_tag(level)
 
-	// pomf - If we have a lighting color that is not null, apply the new tag to seperate the areas.
+	// pomf - If we have a lighting color that is not null, apply the new tag to separate the areas.
 	if (l_color)
 		// pomf - We append the (rounded!) color lighting lumcount so we can have colored lights.
 		new_tag += "[l_color][min(max(round(color_lighting_lumcount,1),0),lighting_controller.lighting_states)]"

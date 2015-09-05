@@ -978,7 +978,7 @@ proc/get_damage_icon_part(damage_state, body_part)
 
 // Used mostly for creating head items
 /mob/living/carbon/human/proc/generate_head_icon()
-//gender no longer matters for the mouth, although there should probably be seperate base head icons.
+//gender no longer matters for the mouth, although there should probably be separate base head icons.
 //	var/g = "m"
 //	if (gender == FEMALE)	g = "f"
 

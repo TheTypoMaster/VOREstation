@@ -85,7 +85,7 @@
 
 //Normal valves
 /obj/machinery/atmospherics/valve
-	description_info = "Click this to turn the valve.  If red, the pipes on each end are seperated.  Otherwise, they are connected."
+	description_info = "Click this to turn the valve.  If red, the pipes on each end are separated.  Otherwise, they are connected."
 
 //TEG ports
 /obj/machinery/atmospherics/binary/circulator

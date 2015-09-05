@@ -33,7 +33,7 @@
 	if(!holder_atom)
 		return
 
-	var/list/seperate = list()
+	var/list/separate = list()
 	if(findtext(msg,"(("))
 		return
 	else if(findtext(msg,"))"))
@@ -44,18 +44,18 @@
 		/*var/l = lentext(msg)
 		if(findtext(msg," ",l,l+1)==0)
 			msg+=" "*/
-		seperate = text2list(msg, " ")
+		separate = text2list(msg, " ")
 
-	for(var/Xa = 1,Xa<seperate.len,Xa++)
+	for(var/Xa = 1,Xa<separate.len,Xa++)
 		var/next = Xa + 1
 		if(heard_words.len > 20 + rand(10,20))
 			heard_words.Remove(heard_words[1])
-		if(!heard_words["[lowertext(seperate[Xa])]"])
-			heard_words["[lowertext(seperate[Xa])]"] = list()
-		var/list/w = heard_words["[lowertext(seperate[Xa])]"]
+		if(!heard_words["[lowertext(separate[Xa])]"])
+			heard_words["[lowertext(separate[Xa])]"] = list()
+		var/list/w = heard_words["[lowertext(separate[Xa])]"]
 		if(w)
-			w.Add("[lowertext(seperate[next])]")
-		//world << "Adding [lowertext(seperate[next])] to [lowertext(seperate[Xa])]"
+			w.Add("[lowertext(separate[next])]")
+		//world << "Adding [lowertext(separate[next])] to [lowertext(separate[Xa])]"
 
 	if(prob(30))
 		var/list/options = list("[holder_atom] seems to be listening intently to [source]...",\
@@ -65,7 +65,7 @@
 
 	if(prob(20))
 		spawn(2)
-			SaySomething(pick(seperate))
+			SaySomething(pick(separate))
 
 /*/obj/item/weapon/talkingcrystal/proc/debug()
 	//set src in view()
